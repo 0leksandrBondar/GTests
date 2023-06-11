@@ -2,7 +2,9 @@ project(MyTests)
 
 set (SOURCES
     testmain.cpp
-    deliverycompany_test.cpp)
+    abstractvehicle_test.cpp
+    deliverycompany_test.cpp
+    calculatedeliverytime_test.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 

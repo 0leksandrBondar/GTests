@@ -23,6 +23,7 @@ public:
 
     std::string convertLacationToString(const Location location) const;
 
+    float calculateDeliveryTime(const AbstractVehicle *AbstractVehicle) const;
 private:
-    float calculateDeliveryTime(const Location from, const Location to) const;
+    std::string _delyveryRequestInfo;
 };
